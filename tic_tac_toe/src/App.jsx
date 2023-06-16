@@ -6,7 +6,9 @@ function App() {
     <>
       <div>
       hello
-      <Square value="The content"/>
+      <Square value="The content">
+      <div>The children of the component</div>
+      </Square>
        </div>
     </>
   )
