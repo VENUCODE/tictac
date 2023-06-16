@@ -1,16 +1,11 @@
 
-import './App.css'
-import Square from './components/square'
+import '../style.scss'
+import Board from './components/Board'
 function App() {
   return (
-    <>
-      <div>
-      hello
-      <Square value="The content">
-      <div>The children of the component</div>
-      </Square>
-       </div>
-    </>
+    <div className='app'>
+   <Board/>
+    </div>
   )
 }
 

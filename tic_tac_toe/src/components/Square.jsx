@@ -1,6 +1,6 @@
-const Square=({value,children})=>{
+const Square=({value})=>{
  return(
-        <><h1 className="read-the-docs">{value}</h1><div className="children">the childern go here {children}</div></>
+        <><button type="button" className="square">{value}</button></>
         )
 }
 export default Square;
