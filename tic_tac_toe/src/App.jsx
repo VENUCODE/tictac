@@ -6,7 +6,7 @@ function App() {
     <>
       <div>
       hello
-      <Square/>
+      <Square value="The content"/>
        </div>
     </>
   )

@@ -1,7 +1,6 @@
-const Square=()=>{
+const Square=(props)=>{
  return(
-        <h1 className="read-the-docs">this is a square</h1>
-        
+        <h1 className="read-the-docs">{props.value}</h1>
         )
 }
 export default Square;
